@@ -1,0 +1,19 @@
+{
+  "name": "raimu_bot_v3",
+  "version": "3.0.0",
+  "description": "DiscordのHIPHOPサーバー向けのBot、「らいむ」のバージョン3です。",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SAKURA",
+  "license": "ISC",
+  "dependencies": {
+    "@keyv/sqlite": "^3.6.4",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "keyv": "^4.5.2",
+    "pify": "^6.1.0"
+  }
+}
